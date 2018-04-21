@@ -5,6 +5,7 @@ $("#addAnimal").on("click", function(){
   var btn = $("<button>");
   btn.click(animalGifs);
   btn.attr('data-animal', animal);
+  btn.attr('id','label');
   $('#animalButtons').append(btn);
   btn.text(animal);
 
