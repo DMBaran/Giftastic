@@ -24,6 +24,7 @@ function animalGifs() {
     method: "GET"
   })
   .then(function(response) {
+
     var results = response.data;
 
     for (var i = 0; i < results.length; i++) {
